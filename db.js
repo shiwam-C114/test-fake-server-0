@@ -1,7 +1,5 @@
-const locations = require("./data/locations");
-const infos = require("./data/infos");
+const data = require("./data/data.json");
 
 module.exports = {
-  locations,
-  infos
+  data,
 }
